@@ -9,7 +9,6 @@ import pandas as pd
 import matplotlib.pylab as plt
 
 os.getcwd()
-os.chdir('Desktop/ExcelR/Assignments')
 airlines = pd.read_excel("EastWestAirlines.xlsx", sheet_name='data')
 
 #Normalizing_data
